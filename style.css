@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    grid-template-columns: "a b c d e";
+    grid-template-rows:"a b c" ;
+    background-color: black;
+}
+img{
+    height: 250px;
+    width: 150px;
+}
+h1 {
+    color: darkred;
+    display: grid;
+    grid-area: "b c";
+}
+h2{
+    color:darkred
+}
+ul{
+   width: 7em;
+   height:15em; 
+   background-color: darkred;
+}
